@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Back to Work',
+  title: 'BacktoWork.ing',
   author: 'William Xing',
-  headerTitle: 'Back to Work',
+  headerTitle: 'BacktoWork.ing',
   description: 'Find success stories, expert tips, and resources to help you revitalize your career.',
   language: 'en-us',
   theme: 'system', // system, dark or light
