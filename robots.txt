@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-
-Host: https://layoffsurvivalguide.github.io
-Sitemap: https://layoffsurvivalguide.github.io/sitemap.xml
