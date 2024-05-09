@@ -5,6 +5,7 @@ import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
 import { CoreContent } from 'pliny/utils/contentlayer'
 import { Articles } from '.contentlayer/generated/types'
+import LinkIcon from '@/data/external_link_icon.svg'
 
 const MAX_DISPLAY = 5
 
@@ -46,6 +47,7 @@ export default function Home({ posts }: { posts: CoreContent<Articles>[] }) {
                               className="text-gray-900 dark:text-gray-100"
                             >
                               {title}
+                              {url && <LinkIcon className="mb-2 ml-2 inline-block" />}
                             </Link>
                           </h2>
                           <div className="flex flex-wrap">
