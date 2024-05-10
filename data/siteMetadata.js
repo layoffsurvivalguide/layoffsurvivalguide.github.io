@@ -57,7 +57,7 @@ const siteMetadata = {
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
-      repo: 'etanxing/backtowork-giscu',
+      repo: 'etanxing/backtowork-giscus',
       repositoryId: 'R_kgDOL5TeBw',
       category: 'Ideas',
       categoryId: 'DIC_kwDOL5TeB84CfPzu',
