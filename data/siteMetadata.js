@@ -12,7 +12,7 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
   // email: 'address@yoursite.com',
-  github: 'https://github.com',
+  github: 'https://github.com/etanxing/backtowork-giscus',
   // x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
   // facebook: 'https://facebook.com',
@@ -58,9 +58,9 @@ const siteMetadata = {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
       repo: 'etanxing/backtowork-giscus',
-      repositoryId: 'R_kgDOL5TeBw',
+      repositoryId: 'R_kgDOL5yAQw',
       category: 'Ideas',
-      categoryId: 'DIC_kwDOL5TeB84CfPzu',
+      categoryId: 'DIC_kwDOL5yAQ84CfRUp',
       mapping: 'pathname', // supported options: pathname, url, title
       reactions: '1', // Emoji reactions: 1 = enable / 0 = disable
       // Send discussion metadata periodically to the parent window: 1 = enable / 0 = disable
