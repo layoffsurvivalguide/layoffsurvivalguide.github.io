@@ -10,6 +10,7 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import tagData from 'app/tag-data.json'
+import LinkIcon from '@/data/external_link_icon.svg'
 
 interface PaginationProps {
   totalPages: number
@@ -140,6 +141,7 @@ export default function ListLayoutWithTags({
                               className="text-gray-900 dark:text-gray-100"
                             >
                               {title}
+                              {url && <LinkIcon className="mb-2 ml-2 inline-block" />}
                             </Link>
                           </h2>
                           <div className="flex flex-wrap">
