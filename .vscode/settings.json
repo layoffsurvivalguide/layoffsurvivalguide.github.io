@@ -3,5 +3,6 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "cSpell.enableFiletypes": [
     "mdx"
-  ]
+  ],
+  "files.eol": "\n"
 }
